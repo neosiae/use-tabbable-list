@@ -1,0 +1,7 @@
+src
+example
+tests
+webpack.config.js
+.gitignore
+.babelrc
+.travis.yml

@@ -1,0 +1,59 @@
+{
+  "name": "use-tabbable-list",
+  "version": "1.0.0",
+  "description": "React hook that returns all tabbable elements within a DOM node",
+  "main": "dist/index.js",
+  "keywords": [
+    "react",
+    "hook",
+    "hooks",
+    "useTabbable",
+    "useTabbableList",
+    "accessibility",
+    "a11y"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d example/build",
+    "publish:gh": "npm run build && npm run deploy",
+    "eslint": "npx eslint src/**",
+    "jest": "npx jest",
+    "jest:w": "npx jest --watch",
+    "test": "jest",
+    "transpile": "npx babel src -d dist",
+    "prepublish": "npm run transpile"
+  },
+  "license": "MIT",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hooks-testing-library": "^0.5.0",
+    "react-test-renderer": "^16.8.6",
+    "react-testing-library": "^7.0.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
