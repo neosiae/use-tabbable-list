@@ -1,6 +1,6 @@
 # use-tabbable-list
 
-[![Build Status](https://img.shields.io/travis/com/neosiae/use-tabbable-list/master.svg?style=flat-square)](https://travis-ci.com/neosiae/use-tabbable-list) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+![npm](https://img.shields.io/npm/v/use-tabbable-list.svg?style=flat-square) [![Build Status](https://img.shields.io/travis/com/neosiae/use-tabbable-list/master.svg?style=flat-square)](https://travis-ci.com/neosiae/use-tabbable-list) ![npm](https://img.shields.io/npm/dw/use-tabbable-list.svg?style=flat-square) ![npm bundle size (version)](https://img.shields.io/bundlephobia/min/use-tabbable-list/1.0.0.svg?style=flat-square) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 React hook that returns all tabbable elements within a DOM node
 
