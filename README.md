@@ -38,3 +38,7 @@ A reference to a DOM Node.
 #### Return value
 
 An array of all tabbable elements within the `ref` node.
+
+## License
+
+MIT
