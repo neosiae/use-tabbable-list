@@ -12,6 +12,11 @@
     "accessibility",
     "a11y"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosiae/use-tabbable-list.git"
+  },
+  "author": "Denis Kotlica <neosiae@gmail.com>",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "build": "webpack --mode production",
@@ -25,9 +30,6 @@
     "prepublish": "npm run transpile"
   },
   "license": "MIT",
-  "standard": {
-    "parser": "babel-eslint"
-  },
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
