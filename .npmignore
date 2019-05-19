@@ -2,6 +2,9 @@ src
 example
 tests
 webpack.config.js
+babel.config.js
 .gitignore
 .babelrc
 .travis.yml
+.eslintrc
+.prettierrc
