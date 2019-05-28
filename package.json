@@ -1,6 +1,6 @@
 {
   "name": "use-tabbable-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React hook that returns all tabbable elements within a DOM node",
   "main": "dist/index.js",
   "keywords": [
