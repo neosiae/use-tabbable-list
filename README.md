@@ -11,7 +11,7 @@ React hook that returns all tabbable elements within a DOM node
 ## Usage
 
 ```javascript
-import useTabbableList from '../src/index'
+import useTabbableList from 'use-tabbable-list'
 
 function Example() {
   const ref = useRef(null)
