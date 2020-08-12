@@ -54,8 +54,8 @@
     "react-hooks-testing-library": "^0.5.1",
     "react-test-renderer": "^16.8.6",
     "react-testing-library": "^7.0.1",
-    "webpack": "^4.42.0",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.11.0"
   }
 }
